@@ -10,17 +10,8 @@ public class Babysitter {
 	public static void main(String[] args) {
 		int totalPayment = 0;
 		AmountPaid b = new AmountPaid();
-//		AmountPaid payment = new AmountPaid();
-		
-//		public double calculatePay(double hours, double rate) {
-//			
-//		}
-		
-		// if worked > 5 hours then payment is bedtime to midnight
-		//if hours worked is > 7 then payment is midnight until end of job.
 		
 		// TODO Auto-generated method stub
-		System.out.println("hello World");
 		
 		Scanner scanner = new Scanner(System.in);
 		

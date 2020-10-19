@@ -20,7 +20,6 @@ public class AmountPaid {
 		else if (hours > 5 && hours < 8) {
 			adjustedHours = hours - baseHoursWorked;
 			basePay = baseHoursWorked * regularHours;
-//			rate = bedToMid;
 			addedHours = adjustedHours * bedToMid;
 			amountPaid = addedHours + basePay;
 		}
